@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html>
+</html>
+<head>
+    <meta charset="UTF-8">
+    <title>Россия-великая страна</title>
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      h1.red{
+        color: red;
+      }
+    .title h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: aliceblue;
+}
+      .list_menu a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: aliceblue;
+    border-left: 2px solid aliceblue;
+    padding-left: 5px;
+    transition: all 0.2s ease;
+}
+.list_menu a:hover{
+  border-left: 2px solid aliceblue;
+  padding-left: 10px;
+  transition: all 0.2s ease;
+}
+      .list_menu li{
+    margin: 20px 0;
+}
+      .menu{
+    padding: 25vh 50px;
+    position: fixed;
+    background: rgba(20, 20, 20, 0.5);
+    height: 100vh;
+    backdrop-filter: blur(16px);
+    border-right: 7px solid aliceblue;
+    left: -385px;
+    transition: all 0.2s ease;
+}
+.menu:hover{
+  left: 0;
+  transition: all 0.2s ease;
+}
+.content{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.main {
+ text-align: center;
+}
+.marq {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+    </style>  
+</head>
+<body>
+  <style>
+    body{
+        background-color: #FA8072;
+    }
+</style>
+<div class="menu">
+  <div class="title"><h1>NAVIGATION</h1></div>
+  <div class="list_menu">
+    <ul>
+      <li><a href="Россия-Великая страна!.html">Главная</a></li>
+      <li><a href="почему.html">Почему же великая?</a></li>
+      <li><a href="Гимн.html">Гимн</a></li>
+      <li><a href="Флаг.html">Флаг</a></li>
+    </ul>
+  </div>
+</div>
+<center>
+<h1 class="h1">Герб РФ</h1>
+<button id="setRedColor">Изменить цвет</button>
+<script>
+  document.addEventListener("DOMContentLoaded", () =>{
+    const btn = document.getElementById('setRedColor');
+    console.log(btn);
+    btn.onclick = function (){
+      document.querySelector('.h1').classList.toggle('red');
+    }
+  });
+</script>
+</center>
+    <marquee behavior="alternate"><img src="ооре.png"></marquee>
+    <center><p align="center"><i><b><font size="5">Герб РФ</i> — официальный государственный символ 
+Российской Федерации;один из главных государственных символов России наряду с 
+Государственным флагом Российской Федерациии Государственным гимном Российской Федерации. 
+Современный герб утверждён указом президента ссийской Федерации
+от 30 ноября 1993 года </font></b></p></center>
+  <center>
+  <a href="https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D1%80%D0%B1_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8">
+    <button style="
+    padding: 30px;
+    border-radius: 40px;"
+    vspace="200">Нажмите сюда для подробного изучения<img src="click.gif" style="width: 50px;"></button></a></center>
+    <center>
+      <h1><font color="#000000">Для тех, кто не любит читать :)</h1></font>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/CHuiScrg1ZE?si=CzmkDgFRnBS2T3tS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen align="right"></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/qIHMoLo2QXU?si=xBalObM1jmLuj9Xn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen align="left"></iframe>
+      </center>
+  </body>
+</html>
